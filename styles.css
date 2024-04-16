@@ -4,11 +4,40 @@ body{
 }
 .product{
 	background-color: white;
+	display: flex;
+	margin: 80px;
+	padding: 30px 0 30px 0;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 .price {
     font-size: 24px;
     color: green;
 }
-.description{
-	
+div > ul {
+	display: flex;
 }
+.photo-main{
+	background-color: limegreen;
+	margin: 20px;
+	width: 300px;
+	height: 400px;
+}
+.controls{
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	margin: 5px;
+	padding: 5px;
+}
+button {
+	background-color: red;
+	color: white;
+	border: 0;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+
+
