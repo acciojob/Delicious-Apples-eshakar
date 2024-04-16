@@ -5,3 +5,7 @@ body{
 .product{
 	background-color: white;
 }
+.price {
+    font-size: 24px;
+    color: green;
+}
